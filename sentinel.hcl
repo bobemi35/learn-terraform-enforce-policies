@@ -2,5 +2,5 @@
 # SPDX-License-Identifier: MPL-2.0
 
 policy "allowed-terraform-version" {
-  learn-terraform-enforce-policies
+  enforcement_level = "hard-mandatory"
 }
