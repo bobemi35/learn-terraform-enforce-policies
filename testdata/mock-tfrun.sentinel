@@ -1,0 +1,56 @@
+id = "run-whEfg3pQPMxerioA"
+created_at = "2025-10-02T18:24:43.604Z"
+created_by = "hcp120_policy"
+message = "Triggered via UI"
+commit_sha = "9f222838ff52ab65367a430a423e0086526721aa"
+speculative = true
+is_destroy = false
+refresh = true
+refresh_only = false
+replace_addrs = []
+target_addrs = null
+project = {
+	"id":   "prj-iioGLARhHDbQDvWd",
+	"name": "Default Project",
+}
+
+variables = {
+	"AWS_ACCESS_KEY_ID": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"AWS_SECRET_ACCESS_KEY": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"instance_count": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+	"instance_type": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+}
+
+organization = {
+	"name": "policy-as-code-training",
+}
+
+workspace = {
+	"auto_apply":     false,
+	"created_at":     "2025-10-02T12:47:09.491Z",
+	"description":    null,
+	"execution_mode": "default",
+	"id":             "ws-jNz7xE4esZpMJ25k",
+	"name":           "policy-dev-rmk",
+	"tag_bindings":   [],
+	"tags":           [],
+	"vcs_repo": {
+		"branch":             "",
+		"display_identifier": "bobemi35/learn-terraform-variables",
+		"identifier":         "bobemi35/learn-terraform-variables",
+		"ingress_submodules": false,
+	},
+	"working_directory": "",
+}
